@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="firstcucumber.RunCucumberTest" time="33.931" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Sprint3"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="browser" value="appium"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/thuyltm3/IdeaProjects/Automation_test/firstcucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/thuyltm3/IdeaProjects/Automation_test/firstcucumber"/>
+    <property name="java.runtime.version" value="1.8.0_252-8u252-b09-1~19.10-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.3.0-53-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/thuyltm3"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="thuyltm3"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @Sprint3 -Dbrowser=appium"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="DATA TABLE example" name="Show inserted item after refresh page" time="16.959">
+    <error message="An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANM-THUYLTM3&apos;, ip: &apos;192.168.44.238&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-53-generic&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: AHB00060333, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: vsmart, deviceModel: Live, deviceName: AHB00060333, deviceScreenDensity: 480, deviceScreenSize: 1080x2232, deviceUDID: AHB00060333, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 1992, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5d4f05e6-8d02-456e-b809-b82b5696df19
+*** Element info: {Using=css selector, value=input.new-todo}" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANM-THUYLTM3&apos;, ip: &apos;192.168.44.238&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-53-generic&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: AHB00060333, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: vsmart, deviceModel: Live, deviceName: AHB00060333, deviceScreenDensity: 480, deviceScreenSize: 1080x2232, deviceUDID: AHB00060333, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 1992, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5d4f05e6-8d02-456e-b809-b82b5696df19
+*** Element info: {Using=css selector, value=input.new-todo}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByCssSelector(DefaultGenericMobileDriver.java:138)
+	at io.appium.java_client.AppiumDriver.findElementByCssSelector(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByCssSelector(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at firstcucumber.StepDefinitions.StepDefinitions_Todo.the_data_as_below_list_already_inserted(StepDefinitions_Todo.java:42)
+	at ✽.The data as below list already inserted(file:///home/thuyltm3/IdeaProjects/Automation_test/firstcucumber/src/test/resources/firstcucumber/todo.feature:5)
+</error>
+    <system-out>
+@Sprint3
+Scenario: Show inserted item after refresh page  &amp;#27;[90m# src/test/resources/firstcucumber/todo.feature:3&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mThe Todo page is open&amp;#27;[0m                    &amp;#27;[90m# firstcucumber.StepDefinitions.StepDefinitions_Todo.the_todo_page_is_open()&amp;#27;[0m
+  &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mThe data as below list already inserted&amp;#27;[0m    &amp;#27;[90m# firstcucumber.StepDefinitions.StepDefinitions_Todo.the_data_as_below_list_already_inserted(io.cucumber.datatable.DataTable)&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANM-THUYLTM3&apos;, ip: &apos;192.168.44.238&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-53-generic&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: AHB00060333, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: vsmart, deviceModel: Live, deviceName: AHB00060333, deviceScreenDensity: 480, deviceScreenSize: 1080x2232, deviceUDID: AHB00060333, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 1992, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5d4f05e6-8d02-456e-b809-b82b5696df19
+*** Element info: {Using=css selector, value=input.new-todo}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByCssSelector(DefaultGenericMobileDriver.java:138)
+	at io.appium.java_client.AppiumDriver.findElementByCssSelector(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByCssSelector(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at firstcucumber.StepDefinitions.StepDefinitions_Todo.the_data_as_below_list_already_inserted(StepDefinitions_Todo.java:42)
+	at ✽.The data as below list already inserted(file:///home/thuyltm3/IdeaProjects/Automation_test/firstcucumber/src/test/resources/firstcucumber/todo.feature:5)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mThe user refresh the page&amp;#27;[0m                 &amp;#27;[90m# firstcucumber.StepDefinitions.StepDefinitions_Todo.the_user_refresh_the_page()&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mThe list with inserted items is displayed&amp;#27;[0m &amp;#27;[90m# firstcucumber.StepDefinitions.StepDefinitions_Todo.the_list_with_inserted_items_is_displayed()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANM-THUYLTM3&apos;, ip: &apos;192.168.44.238&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-53-generic&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: AHB00060333, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: vsmart, deviceModel: Live, deviceName: AHB00060333, deviceScreenDensity: 480, deviceScreenSize: 1080x2232, deviceUDID: AHB00060333, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 1992, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5d4f05e6-8d02-456e-b809-b82b5696df19
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at firstcucumber.StepDefinitions.Hooks.AfterTest(Hooks.java:51)
+&amp;#27;[0m
+</system-out>
+    <system-err>May 23, 2020 5:57:10 PM io.cucumber.core.options.CucumberPropertiesParser parse
+WARNING: Passing commandline options via the property `cucumber.options` has been deprecatedin favour of explicitly using property names.
+Please use these instead: [cucumber.ansi-colors.disabled, cucumber.execution.dry-run, cucumber.execution.limit, cucumber.execution.order, cucumber.execution.strict, cucumber.execution.wip, cucumber.features, cucumber.filter.name, cucumber.filter.tags, cucumber.glue, cucumber.object-factory, cucumber.plugin, cucumber.snippet-type]
+May 23, 2020 5:57:10 PM io.cucumber.junit.Cucumber &lt;init&gt;
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+May 23, 2020 5:57:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="DATA TABLE example" name="Show inserted item after refresh page" time="16.972">
+    <error message="An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANM-THUYLTM3&apos;, ip: &apos;192.168.44.238&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-53-generic&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: AHB00060333, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: vsmart, deviceModel: Live, deviceName: AHB00060333, deviceScreenDensity: 480, deviceScreenSize: 1080x2232, deviceUDID: AHB00060333, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 1992, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5d4f05e6-8d02-456e-b809-b82b5696df19" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: chrome not reachable
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANM-THUYLTM3&apos;, ip: &apos;192.168.44.238&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-53-generic&apos;, java.version: &apos;1.8.0_252&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: AHB00060333, platformName: android, platformVersion: 9}, deviceApiLevel: 28, deviceManufacturer: vsmart, deviceModel: Live, deviceName: AHB00060333, deviceScreenDensity: 480, deviceScreenSize: 1080x2232, deviceUDID: AHB00060333, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 96, takesScreenshot: true, viewportRect: {height: 1992, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5d4f05e6-8d02-456e-b809-b82b5696df19
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at firstcucumber.StepDefinitions.Hooks.AfterTest(Hooks.java:51)
+</error>
+  </testcase>
+</testsuite>
